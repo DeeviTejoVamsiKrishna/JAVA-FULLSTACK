@@ -6,7 +6,9 @@ class Bright{
             System.out.println("Bright IT Career");
         }
     }
-}
+} 
+
+
 //1to20numbers
 class Bright{
     public static void main(String[] args)
@@ -18,6 +20,8 @@ class Bright{
         }
     }
 }
+
+
 //equal or not equal
 class EqualityDemo{
     public static void main(String[] args)
@@ -35,6 +39,8 @@ class EqualityDemo{
         }
     }
 }
+
+
 //odd or even
 class OddorEven{
     public static void main(String[] args)
@@ -49,6 +55,8 @@ class OddorEven{
         }
     }
 }
+
+
 //largestofthree
 import java.util.Scanner;
 public class LargestOfThree{
@@ -67,6 +75,8 @@ public class LargestOfThree{
          sc.close();
     }
 }
+
+
 //evenbetween10to100
 class EvenNumbers{
     public static void main(String[] args)
@@ -80,6 +90,8 @@ class EvenNumbers{
         }
     }
 }
+
+
 //whileloopbetween1to10
 class Numbers{
     public static void main(String[] args)
@@ -92,6 +104,8 @@ class Numbers{
        
     }
 }
+
+
 //armstrongornot
 class ArmstrongNumbers{
     public static void main(String[] args)
@@ -110,6 +124,8 @@ class ArmstrongNumbers{
             System.out.println(num+"is not Armstrong Number");
     }
 }
+
+
 //primenumbers
 import java.util.Scanner;
 public class Main {
@@ -136,6 +152,8 @@ public class Main {
     }
   }
 }
+
+
 //palindrome or not
 import java.util.Scanner;
 public class Palindrome {
