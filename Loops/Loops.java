@@ -176,3 +176,66 @@ public class Palindrome {
         sc.close(); 
     }
 }
+
+// Program to check whether a number is EVEN or ODD using switch
+import java.util.Scanner;
+
+public class EvenOddSwitch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        switch (num % 2) {
+            case 0:
+                System.out.println("The number is EVEN.");
+                break;
+            case 1:
+                System.out.println("The number is ODD.");
+                break;
+            default:
+                System.out.println("Invalid input.");
+        }
+    }
+}
+
+
+// Print gender (Male/Female) according to given M/F using switch
+import java.util.Scanner;
+
+public class GenderSwitch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter gender (M/F): ");
+        char gender = sc.next().charAt(0);
+
+        switch (gender) {
+            case 'M':
+            case 'm':
+                System.out.println("Gender is Male.");
+                break;
+            case 'F':
+            case 'f':
+                System.out.println("Gender is Female.");
+                break;
+            default:
+                System.out.println("Invalid input.");
+        }
+    }
+}
+
+
+// Program for multiple if-else (Largest number in 10, 20 and 30)
+public class LargestNumber {
+    public static void main(String[] args) {
+        int a = 10, b = 20, c = 30;
+
+        if (a > b && a > c) {
+            System.out.println("Largest number is: " + a);
+        } else if (b > a && b > c) {
+            System.out.println("Largest number is: " + b);
+        } else {
+            System.out.println("Largest number is: " + c);
+        }
+    }
+}
